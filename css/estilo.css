@@ -30,7 +30,7 @@ h1 {
 .botao-zero {
     width: 240px;
     height: 100px;
-    margin-top: 730px;
+    margin: 12.5px 0;
     font-size: 3rem;
     background: #000000;
     border-radius: 20px;
@@ -39,13 +39,13 @@ h1 {
 }
 
 .botao-zero:hover {
-    background: #080808;
+    background: #101010;
 }
 
 .botao-virgula {
     width: 100px;
     height: 100px;
-    margin-top: 730px;
+    margin: 12.5px 0;;
     font-size: 3rem;
     background: #000000;
     border-radius: 20px;
@@ -54,13 +54,13 @@ h1 {
 }
 
 .botao-virgula:hover {
-    background: #080808;
+    background: #101010;
 }
 
-.botao-soma {
+.botao-igual {
     width: 100px;
-    height: 200px;
-    margin-top: 630px;
+    height: 225px;
+    margin: 12.5px 0;
     font-size: 3rem;
     background: #d4f1f5;
     border-radius: 20px;
@@ -68,13 +68,14 @@ h1 {
     box-shadow: 1px 1px 8px #fff;
 }
 
-.botao-soma:hover {
+.botao-igual:hover {
     background: #ffffff;
 }
 
 .botao-numeros {
     width: 100px;
     height: 100px;
+    margin: 12.5px 0;
     font-size: 3rem;
     background: #000000;
     border-radius: 20px;
@@ -83,7 +84,49 @@ h1 {
 }
 
 .botao-numeros:hover {
-    background: #080808;
+    background: #101010;
+}
+
+.botao-c {
+    width: 240px;
+    height: 100px;
+    margin: 12.5px 0;
+    font-size: 3rem;
+    background: #b9fbc0;
+    border-radius: 20px;
+    color: #000000;
+    box-shadow: 1px 1px 8px #fff;
+}
+
+.botao-c:hover {
+    background: #99e699;
+}
+
+.botao-operacoes {
+    width: 100px;
+    height: 100px;
+    margin: 12.5px 0;
+    font-size: 3rem;
+    background: #00ccff;
+    border-radius: 20px;
+    color: #000000;
+    box-shadow: 1px 1px 8px #fff;
+}
+
+.botao-operacoes:hover {
+    background: #76e2fd;
+}
+
+.botoes {
+    margin-top: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+input#calculadora {
+    margin-top: 40px;
+    height: 150px;
+    border-radius: 10px;
 }
 
 /* Breakpoints responsivos
