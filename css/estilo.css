@@ -7,7 +7,6 @@ body {
 
 .container {
     margin-top: 50px;
-    border: 1px solid red;
 }
 
 /* Formatação do conteúdo
@@ -17,7 +16,6 @@ h1 {
     text-transform: uppercase;
     text-align: center;
     font-family: impact;
-    border: 1px solid red;
 }
 
 .calculadora {
@@ -63,12 +61,16 @@ button {
     box-shadow: 1px 1px 3px #fff;
 }
 
+.btn {
+    font-size: 3rem;
+}
+
 /* Breakpoints responsivos
 -------------------------------------------------*/
 
 @media (max-width: 575.98px) { /* Extra small */
     input#calculadora {
-        height: 100px;
+        height: 80px;
     }
 
     .display-3 {
@@ -78,31 +80,35 @@ button {
     .calculadora {
         margin: 40px;
         width: 90%;
-        height: 600px;
+        height: 440px;
     }
 
     .c {
-        width: 45%;
-        height: 80px;
+        width: 44%;
+        height: 50px;
     }
     
     .operacao {
         width: 23%;
-        height: 80px;
+        height: 50px;
     }
     
     .numero, .operacao-numero, .igual, .virgula {
-        width: 21.8%;
-        height: 80px;
+        width: 21.4%;
+        height: 50px;
     }
 
     .zero {
-        width: 46.7%;
-        height: 80px;
+        width: 46.5%;
+        height: 50px;
     }
     
     .logo {
         width: 24%;
+    }
+
+    .btn {
+        font-size: 1rem;
     }
 }
 
@@ -182,6 +188,10 @@ button {
     .logo {
         width: 24%;
     }
+
+    .btn {
+        font-size: 2rem;
+    }
 }
 
 @media (min-width: 992px) and (max-width: 1199.98px) { /* Large */
@@ -211,6 +221,10 @@ button {
     
     .logo {
         width: 24%;
+    }
+
+    .btn {
+        font-size: 2rem;
     }
 }
 
