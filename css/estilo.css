@@ -27,101 +27,26 @@ h1 {
     border-radius: 20px;
 }
 
-.botao-zero {
-    width: 240px;
+.zero, .c, .igual, .numero, .operacao {
+    width: 100%;
+    margin: 5%;
+    border-radius: 20px;
+}
+
+.zero, .c, .numero, .operacao {
     height: 100px;
-    margin: 12.5px 0;
-    font-size: 3rem;
-    background: #000000;
-    border-radius: 20px;
-    color: #fff;
-    box-shadow: 1px 1px 8px #fff;
 }
 
-.botao-zero:hover {
-    background: #101010;
+.nove {
+    margin-top: 11px;
 }
 
-.botao-virgula {
-    width: 100px;
-    height: 100px;
-    margin: 12.5px 0;;
-    font-size: 3rem;
-    background: #000000;
-    border-radius: 20px;
-    color: #fff;
-    box-shadow: 1px 1px 8px #fff;
-}
-
-.botao-virgula:hover {
-    background: #101010;
-}
-
-.botao-igual {
-    width: 100px;
-    height: 225px;
-    margin: 12.5px 0;
-    font-size: 3rem;
-    background: #d4f1f5;
-    border-radius: 20px;
-    color: #000000;
-    box-shadow: 1px 1px 8px #fff;
-}
-
-.botao-igual:hover {
-    background: #ffffff;
-}
-
-.botao-numeros {
-    width: 100px;
-    height: 100px;
-    margin: 12.5px 0;
-    font-size: 3rem;
-    background: #000000;
-    border-radius: 20px;
-    color: #fff;
-    box-shadow: 1px 1px 8px #fff;
-}
-
-.botao-numeros:hover {
-    background: #101010;
-}
-
-.botao-c {
-    width: 240px;
-    height: 100px;
-    margin: 12.5px 0;
-    font-size: 3rem;
-    background: #b9fbc0;
-    border-radius: 20px;
-    color: #000000;
-    box-shadow: 1px 1px 8px #fff;
-}
-
-.botao-c:hover {
-    background: #99e699;
-}
-
-.botao-operacoes {
-    width: 100px;
-    height: 100px;
-    margin: 12.5px 0;
-    font-size: 3rem;
-    background: #00ccff;
-    border-radius: 20px;
-    color: #000000;
-    box-shadow: 1px 1px 8px #fff;
-}
-
-.botao-operacoes:hover {
-    background: #76e2fd;
-}
-
-.botoes {
+/* .botoes button {
     margin-top: 10px;
     margin-left: 5px;
     margin-right: 5px;
-}
+    font-size: 3rem
+} */
 
 input#calculadora {
     margin-top: 40px;
