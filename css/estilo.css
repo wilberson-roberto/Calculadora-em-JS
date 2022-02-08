@@ -23,54 +23,195 @@ h1 {
 .calculadora {
     background-image: linear-gradient(130deg, #434343 0%, black 100%);
     width: 400px;
-    height: 850px;
+    height: 810px;
     border-radius: 20px;
 }
-
-.zero, .c, .igual, .numero, .operacao {
-    width: 100%;
-    margin: 5%;
-    border-radius: 20px;
-}
-
-.zero, .c, .numero, .operacao {
-    height: 100px;
-}
-
-.nove {
-    margin-top: 11px;
-}
-
-/* .botoes button {
-    margin-top: 10px;
-    margin-left: 5px;
-    margin-right: 5px;
-    font-size: 3rem
-} */
 
 input#calculadora {
-    margin-top: 40px;
+    margin-top: 20px;
     height: 150px;
     border-radius: 10px;
+}
+
+
+.c {
+    width: 50%;
+    height: 110px;
+}
+
+.operacao {
+    width: 21%;
+    height: 110px;
+}
+
+.numero, .operacao-numero, .igual, .virgula {
+    width: 22.3%;
+    height: 110px;
+}
+
+.zero {
+    width: 47.3%;
+    height: 110px;
+}
+
+.logo {
+    width: 24%;
+}
+
+button {
+    margin: 1%;
+    box-shadow: 1px 1px 3px #fff;
 }
 
 /* Breakpoints responsivos
 -------------------------------------------------*/
 
 @media (max-width: 575.98px) { /* Extra small */
+    input#calculadora {
+        height: 100px;
+    }
+
+    .display-3 {
+        font-size: 3rem;
+    }
+
+    .calculadora {
+        margin: 40px;
+        width: 90%;
+        height: 600px;
+    }
+
+    .c {
+        width: 45%;
+        height: 80px;
+    }
     
+    .operacao {
+        width: 23%;
+        height: 80px;
+    }
+    
+    .numero, .operacao-numero, .igual, .virgula {
+        width: 21.8%;
+        height: 80px;
+    }
+
+    .zero {
+        width: 46.7%;
+        height: 80px;
+    }
+    
+    .logo {
+        width: 24%;
+    }
 }
 
 @media (min-width: 576px) and (max-width: 767.98px) { /* Small */
+    input#calculadora {
+        height: 100px;
+    }
+
+    .display-3 {
+        font-size: 3rem;
+    }
+
+    .calculadora {
+        margin: 40px;
+        width: 90%;
+        height: 600px;
+    }
+
+    .c {
+        width: 45%;
+        height: 80px;
+    }
     
+    .operacao {
+        width: 23%;
+        height: 80px;
+    }
+    
+    .numero, .operacao-numero, .igual, .virgula {
+        width: 21.8%;
+        height: 80px;
+    }
+
+    .zero {
+        width: 46.7%;
+        height: 80px;
+    }
+    
+    .logo {
+        width: 24%;
+    }
 }
 
 @media (min-width: 768px) and (max-width: 991.98px) { /* Medium */
+    input#calculadora {
+        height: 100px;
+    }
+
+    .display-3 {
+        font-size: 3rem;
+    }
+
+    .calculadora {
+        height: 540px;
+    }
+
+    .c {
+        width: 45%;
+        height: 70px;
+    }
     
+    .operacao {
+        width: 23%;
+        height: 70px;
+    }
+    
+    .numero, .operacao-numero, .igual, .virgula {
+        width: 21.8%;
+        height: 70px;
+    }
+
+    .zero {
+        width: 46.7%;
+        height: 70px;
+    }
+    
+    .logo {
+        width: 24%;
+    }
 }
 
 @media (min-width: 992px) and (max-width: 1199.98px) { /* Large */
+    .calculadora {
+        height: 750px;
+    }
+
+    .c {
+        width: 46%;
+        height: 100px;
+    }
     
+    .operacao {
+        width: 23%;
+        height: 100px;
+    }
+    
+    .numero, .operacao-numero, .igual, .virgula {
+        width: 22.2%;
+        height: 100px;
+    }
+    
+    .zero {
+        width: 47%;
+        height: 100px;
+    }
+    
+    .logo {
+        width: 24%;
+    }
 }
 
 @media (min-width: 1200px) { /* Extra large */
