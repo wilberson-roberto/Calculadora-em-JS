@@ -36,39 +36,39 @@
             <div class="col-md-6 calculadora">
 
                 <form class="form-group">
-                    <input type="text" name="" id="calculadora" class="form-control" disabled>
+                    <input type="text" id="resultado" class="form-control" placeholder="0" disabled>
                 </form>
 
                 <div class="row botoes">
                     <div class="col-md">
-                        <button class="btn btn-success c">c</button>
-                        <button class="btn btn-primary operacao">/</button>
-                        <button class="btn btn-primary operacao">x</button>
+                        <button onclick="calcular('acao', 'c')" class="btn btn-success c">C</button>
+                        <button onclick="calcular('acao', '/')" class="btn btn-primary operacao">/</button>
+                        <button onclick="calcular('acao', '*')" class="btn btn-primary operacao">x</button>
                         <div class="row">
                             <div class="col-md">
-                                <button class="btn btn-dark numero">7</button>
-                                <button class="btn btn-dark numero">8</button>
-                                <button class="btn btn-dark numero">9</button>
-                                <button class="btn btn-primary operacao-numero">-</button>
+                                <button onclick="calcular('valor', 7)" class="btn btn-dark numero">7</button>
+                                <button onclick="calcular('valor', 8)" class="btn btn-dark numero">8</button>
+                                <button onclick="calcular('valor', 9)" class="btn btn-dark numero">9</button>
+                                <button onclick="calcular('acao', '-')" class="btn btn-primary operacao-numero">-</button>
                                 <div class="row">
                                     <div class="col-md">
-                                        <button class="btn btn-dark numero">4</button>
-                                        <button class="btn btn-dark numero">5</button>
-                                        <button class="btn btn-dark numero">6</button>
-                                        <button class="btn btn-primary operacao-numero">+</button>
+                                        <button onclick="calcular('valor', 4)" class="btn btn-dark numero">4</button>
+                                        <button onclick="calcular('valor', 5)" class="btn btn-dark numero">5</button>
+                                        <button onclick="calcular('valor', 6)" class="btn btn-dark numero">6</button>
+                                        <button onclick="calcular('acao', '+')" class="btn btn-primary operacao-numero">+</button>
                                         <div class="row">
                                             <div class="col-md">
-                                                <button class="btn btn-dark numero">1</button>
-                                                <button class="btn btn-dark numero">2</button>
-                                                <button class="btn btn-dark numero">3</button>
-                                                <button class="btn btn-light igual">=</button>
+                                                <button onclick="calcular('valor', 1)" class="btn btn-dark numero">1</button>
+                                                <button onclick="calcular('valor', 2)" class="btn btn-dark numero">2</button>
+                                                <button onclick="calcular('valor', 3)" class="btn btn-dark numero">3</button>
+                                                <button onclick="calcular('acao', '=')" class="btn btn-light igual">=</button>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                                <button class="btn btn-dark zero">0</button>
-                                <button class="btn btn-dark virgula">,</button>
-                                <img src="img/logo.png" alt="" class="img-fluid logo">
+                                <button onclick="calcular('valor', 0)" class="btn btn-dark zero">0</button>
+                                <button onclick="calcular('acao', ',')" class="btn btn-dark virgula">,</button>
+                                <img src="img/logo.png" alt="Logo de Wilberson Roberto" class="img-fluid logo">
                             </div>
                         </div> <!-- fim da row -->
                     </div> <!-- fim da coluna -->
@@ -80,7 +80,7 @@
 
 
     <!-- JavaScript (Opcional) -->
-    <script src="js/meu-script.js"></script>
+    <script src="js/calculadora.js"></script>
     <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
